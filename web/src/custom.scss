@@ -1,0 +1,21 @@
+$primary: #6610f2;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.visible-mobile {
+  display: block;
+}
+@include media-breakpoint-up(sm) {
+  .visible-mobile {
+    display: none;
+  }
+}
+
+.invisible-mobile {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .invisible-mobile {
+    display: block;
+  }
+}
