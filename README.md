@@ -40,3 +40,4 @@ Usage of ./poc-go-svelte-websockets:
 * Thanks to https://programmingpercy.tech/blog/mastering-websockets-with-go/ for backend logic
 * Websocket module : `github.com/gorilla/websocket`
 * WebUI CSS : Bootstrap 5
+* History messages is stored in browser local storage
